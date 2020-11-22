@@ -16,7 +16,7 @@
           <v-flex xs6 md9>
             <div class="logo-container">
               <!-- <a :href="homeUrl"><img height="52.5" class="small ml-2" src="@/assets/img/logo@2x.png" :title="$t('global.appName')" :alt="$t('global.appName')"></a> -->
-              <h1>Test</h1>
+              <h1>Joggy</h1>
             </div>
           </v-flex>
           <v-spacer></v-spacer>
