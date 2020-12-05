@@ -6,7 +6,7 @@ const state = {
   mode: constants.modes.place,
   apiDataRequested: false,
   dataAcquired: false,
-  mapSettings: {}, // centered at Heidelberg (DE) by default
+  mapSettings: {}, // centered at CBS by default
   embed: false,
   acessibleModeActive: false
 }

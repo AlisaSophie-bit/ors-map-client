@@ -1,13 +1,19 @@
 .switch-side {
-  background: #C62828
+  background: #f4a261;
 }
 
 .logo-container {
   text-align: center;
-  padding-top: 10px;
+  padding-top: 5px;
+  font-size: 30px;
+  color: #2a9d8f;
+  letter-spacing: 5px;
 }
+
+
 .logo-container img.small {
-  height: 35px;
+  height: 73px;
+  
 }
 
 .logo-container a {
@@ -47,7 +53,7 @@
   top: 270px;
   left: 400px;
   z-index: 3;
-  background: #fff;
+  background: #fdffb6;
   transition:all 0.5s ease;
   box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12);
   border-radius: 3px;

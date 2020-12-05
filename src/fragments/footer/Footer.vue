@@ -3,11 +3,12 @@
   :style="{'margin-top': $vuetify.breakpoint.smAndDown ? '-' + $store.getters.footerMiniHeight + 'px': '-' + $store.getters.footerFullHeight + 'px'}"
   :height="$vuetify.breakpoint.smAndDown? $store.getters.footerMiniHeight : $store.getters.footerFullHeight" :class="{'small': $vuetify.breakpoint.smAndDown}">
       <p>
-        <span>&nbsp;© {{currentYear}} <strong>{{footerMainSiteName}}</strong></span>
-        <span class="hidden-sm-and-down"> | {{ $t('global.developedByIntro') }}
+        <span>&nbsp;© {{currentYear}} <strong> JOGGY</strong> </span>
+        <span class="hidden-sm-and-down"> | <strong> TechLabs </strong>
+          <!--| {{ $t('global.developedByIntro') }}
           <strong>
             <a class="hidden-sm-and-down" target="_blank" :href="footerLink">{{ $t('global.developedBy') }}</a>
-          </strong>
+          </strong>-->
         </span>
       </p>
     </v-footer>

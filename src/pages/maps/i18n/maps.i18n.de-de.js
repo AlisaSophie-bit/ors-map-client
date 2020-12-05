@@ -1,7 +1,7 @@
 
 export default {
   maps: {
-    pageTitle: 'Ors Maps',
+    pageTitle: 'JOGGY',
     Places: 'Orte',
     isochrones: 'Isochronen',
     searchPlace: 'Suche einen Ort auf ',

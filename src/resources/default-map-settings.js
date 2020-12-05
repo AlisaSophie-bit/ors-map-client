@@ -20,7 +20,7 @@ const defaultMapSettings = {
   autoFitHighlightedBounds: true,
   acessibleModeActive: false,
   shownOnceTooltips: {},
-  mapCenter: {lat: 49.510944, lng: 8.76709}, // Default center is at Heidelberg, Germany
+  mapCenter: {lat: 55.681786, lng: 12.528783}, // Default center is at CBS
 
   // Settings not being used yet:
   tollways: false,

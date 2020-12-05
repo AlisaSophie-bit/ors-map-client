@@ -1,7 +1,7 @@
 <template>
   <v-layout row justify-center>
     <v-dialog v-model="show" persistent :max-width="confirmMaxWidth" :style="{zIndex: zIndex}">
-      <box :resizable="resizable" v-model="show" background="white" closable @closed="onNo">
+      <box :resizable="resizable" v-model="show" background="red" closable @closed="onNo">
         <div slot="header">
           <h3>{{confirmTitle}}</h3>
         </div>

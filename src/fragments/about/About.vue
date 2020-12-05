@@ -2,6 +2,7 @@
   <div>
     <header style="margin-top: 0">
       <img height="auto" class="logo" src="@/assets/img/logo@2x.png" width="200px" />
+    <!--"\assets\img\logo@2x.png" LA RUTA DEL LOGO PERO NO MODIFICA NADA-->
     </header>
     <v-divider></v-divider>
     <section>
@@ -38,8 +39,8 @@
     <v-divider></v-divider>
     <br>
     <section>
-      <a href="http://www.geog.uni-heidelberg.de/gis/heigit_en.html" target="_blank">
-        <img height="auto" src="@/assets/img/heigit-and-hd-uni.png" class="brand" width="150px" />
+      <a href="https://www.instagram.com/techlabs.cph/?hl=es" target="_blank">
+        <img height="auto" src="@/assets/img/heigit-and-hd-uni.png" class="brand" width="30px" />
       </a>
       <p>{{$t('about.info_IV')}}</p>
       <span>

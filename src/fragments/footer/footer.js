@@ -3,7 +3,7 @@ export default {
   data () {
     return {
       footerMainSiteName: 'openrouteservice',
-      footerLink: 'http://www.heigit.org/'
+      footerLink: 'https://www.instagram.com/techlabs.cph/?hl=es'
     }
   },
   computed: {
