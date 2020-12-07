@@ -20,7 +20,7 @@ export default {
     mode: constants.modes.isochrones,
     mapViewData: new MapViewData(),
     places: [new Place()],
-    roundTripActive: false
+    roundTripActive: true
   }),
   components: {
     PlaceInput,

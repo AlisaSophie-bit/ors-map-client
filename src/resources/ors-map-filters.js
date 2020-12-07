@@ -9,64 +9,64 @@ const filters = [
   {
     name: 'profile',
     useInServices: [constants.services.directions, constants.services.isochrones],
-    hidden: true,
+    hidden: false,
     required: true,
     type: constants.filterTypes.string,
     enum: [
-      'driving-car',
-      'driving-hgv',
-      'cycling-regular',
-      'cycling-road',
-      'cycling-safe',
-      'cycling-mountain',
-      'cycling-electric',
+     // 'driving-car',
+     // 'driving-hgv',
+     // 'cycling-regular',
+     // 'cycling-road',
+     // 'cycling-safe',
+     // 'cycling-mountain',
+     // 'cycling-electric',
       'foot-walking',
-      'foot-hiking',
-      'wheelchair'
+     // 'foot-hiking',
+     // 'wheelchair'
     ],
-    default: 'cycling-regular',
-    value: 'cycling-regular',
+    default:  'foot-walking',
+    value:  'foot-walking',
     mapping: {
-      'cycling-regular': {
-        slug: 'cycling-regular',
-        icon: 'directions_bike',
-        primary: true
-      },
-      'cycling-road': {
-        slug: 'cycling-road',
-        icon: 'directions_bike'
-      },
-      'cycling-electric': {
-        slug: 'cycling-electric',
-        icon: 'directions_bike'
-      },
-      'cycling-mountain': {
-        slug: 'cycling-mountain',
-        icon: 'directions_bike'
-      },
+      //'cycling-regular': {
+      //  slug: 'cycling-regular',
+      //  icon: 'directions_bike',
+      //  primary: true
+      //},
+      //'cycling-road': {
+      //  slug: 'cycling-road',
+      //  icon: 'directions_bike'
+      //},
+      //'cycling-electric': {
+      //  slug: 'cycling-electric',
+      //  icon: 'directions_bike'
+      //},
+      //'cycling-mountain': {
+      //  slug: 'cycling-mountain',
+      //  icon: 'directions_bike'
+      //},
       'foot-walking': {
         slug: 'foot-walking',
         icon: 'directions_walk',
         primary: true
       },
-      'foot-hiking': {
-        slug: 'foot-hiking',
-        icon: 'directions_walk'
-      },
-      'driving-car': {
-        slug: 'driving-car',
-        icon: 'directions_car',
-        primary: true
-      },
-      'driving-hgv': {
-        slug: 'driving-hgv',
-        icon: 'directions_car'
-      },
-      wheelchair: {
-        slug: 'wheelchair',
-        icon: 'accessible',
-        primary: true
-      }
+      //'foot-hiking': {
+      //  slug: 'foot-hiking',
+      //  icon: 'directions_walk'
+      //},
+      //'driving-car': {
+      //  slug: 'driving-car',
+      //  icon: 'directions_car',
+      //  primary: true
+      //},
+      //'driving-hgv': {
+      //  slug: 'driving-hgv',
+      //  icon: 'directions_car'
+      //},
+      //wheelchair: {
+      //  slug: 'wheelchair',
+      //  icon: 'accessible',
+      //  primary: true
+      //}
     }
   },
   {

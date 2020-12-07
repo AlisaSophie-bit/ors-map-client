@@ -2,16 +2,17 @@
 export default {
   orsMapFilters: {
     profiles: {
-      'cycling-regular': 'Bike',
-      'cycling-road': 'Road bike',
-      'cycling-electric': 'E-bike',
-      'cycling-mountain': 'Mountainbike',
-      'cycling-safe': 'Cycling safe',
-      'foot-walking': 'Foot walking',
-      'foot-hiking': 'Foot hiking',
-      'driving-car': 'Car',
-      'driving-hgv': 'HGV',
-      'wheelchair': 'Wheelchair'
+      'foot-walking': 'Running',
+      'cycling-regular': '',
+      'cycling-road': '',
+      'cycling-electric': '',
+      'cycling-mountain': '',
+      'cycling-safe': '',
+      
+      'foot-hiking': '',
+      'driving-car': '',
+      'driving-hgv': '',
+      'wheelchair': ''
     },
     filters: {
       preference: {

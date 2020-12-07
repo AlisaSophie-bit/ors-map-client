@@ -1,7 +1,7 @@
 
 export default {
   maps: {
-    pageTitle: 'ORS Maps',
+    pageTitle: 'Joggy',
     Places: 'Locais',
     isochrones: 'Isócronos',
     searchPlace: 'Encontrar um local no ORS',

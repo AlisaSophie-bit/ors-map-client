@@ -4,9 +4,9 @@
       <v-tab ripple key="0" class="tab-title">
         {{ $t('mapForm.PlacesAndDirections') }}
       </v-tab>
-      <v-tab ripple key="1" class="tab-title">
+      <!-- <v-tab ripple key="1" class="tab-title">
         {{$t('mapForm.isochrones')}}
-      </v-tab>
+      </v-tab>  -->
       <v-tab-item key="0">
         <places-and-directions :active="$store.getters.mode !== constants.modes.isochrones"> </places-and-directions>
       </v-tab-item>

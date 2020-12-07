@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <!-- <div>
     <map-form-btn @clicked="openImporter()" :icon="'cloud_upload'" :title="$t('routeImporter.loadRouteFile')" ></map-form-btn>
     <v-dialog v-model="isImportModalOpen" max-width="600" :persistent="true">
       <box v-model="isImportModalOpen" background="white" closable @closed="closeImporter()">
@@ -9,7 +9,7 @@
           {{$t('routeImporter.acceptedImportTypes')}}: <b>ors-json</b>, <b>geojson</b>, <b>kml</b> {{$t('global.and')}} <b>gpx</b>
         </v-alert>
       </box>
-    </v-dialog>
+    </v-dialog> -->
   </div>
 </template>
 
